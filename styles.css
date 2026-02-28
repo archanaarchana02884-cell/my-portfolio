@@ -12,9 +12,7 @@ header{
     margin:20px;
     background-color : grey;
 }
-.profile {
-  width: 180px;
-  height: auto;
+
 header h1{
     color:lightseagreen;
 }
@@ -81,5 +79,6 @@ Footer{
     background-color:black;
     color:white;
 }
+
 
 
