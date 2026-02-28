@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle >ABOUT MY NEW WEBSITE</tittle>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+       <h1>THIS IS MY PORTFOLIO</h1>
+        <button>home</button>
+        <button>about</button>
+        <button>upskill</button>
+        <button>projects</button>
+      </header>
+      <main>
+         <section>
+       <h2>about my intrduction</h2>
+          <img src="bike.jpg">
+       <p>I am akky, I am from penukonda.<br>I am studying Btech at sanskrithi school of engineering.<br> I am intrested in web development because I intrested to build a websites, I am start learning web development , first I am not intrested to coding when I am start learning coding now its intrested.<br>and my strenth is i have adaptability.</p>
+         </section>
+
+        <section>
+        <h1>my skills</h1>
+        <ol>
+            <li>basics of python</li>
+            <li>basics of c</li>
+            <li>basics of html and css</li>
+            <li>basics of java</li>
+        </ol>
+        </section>
+    <section>
+    <h1>contact me</h1>
+    <p>fill this form for login the webpage</p>
+
+    <form>
+        <label for="username">username: </label>
+        <input type="text"><br>
+        <label for="password">password</label>
+        <input type="text"><br>
+
+        <b>choose your gender: </b>
+        <input type="radio" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" value="female"
+        <label for="female">female</label><br>
+
+        <b>select your intrested one:</b>
+        <input type="checkbox" id="reading" value="reading">
+        <label for="reading">reading</label>
+        <input type="checkbox" id="writing" value="writing">
+        <label for="writing">writing</label><br>
+
+        <b>type your domain: </b>
+        <label for="domain"></label>
+        <input type="text"><br>
+
+        <button type="submit">submit</button>
+    </form>
+    </section>
+</main>
+<button class="fixedbutton">Top</button>
+<footer>
+    <p>this is my footer</p>
+</footer>
+
+<script>
+  const topButton = document.querySelector(".fixedbutton");
+
+  topButton.addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+</body>
+</html>

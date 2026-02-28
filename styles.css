@@ -1,0 +1,82 @@
+*{
+  font-family:monospace;
+}
+body{
+    margin:0;
+}
+header{
+    height:100vh;
+    color: white; 
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin:20px;
+    background-color : grey;
+}
+
+
+header h1{
+    color:lightseagreen;
+}
+.button{
+    height: 40px;
+    width: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover{   
+    color:white;
+    background-color: blue;
+    
+}
+h2{
+    color:blueviolet;
+}
+section{
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius:20px;
+    margin: 20px;
+    background-color: gray;
+
+}
+.submit{
+    height: 40px;
+    width: 14px;
+    border: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:brown;
+}
+.button:hover{
+    color: white;
+    background-color:blue;
+}
+input{
+    border-radius: 5px;
+    border:1px solid lightgray;
+    height:20px;
+    margin-bottom: 10px;
+}
+h1{
+    color:aquamarine;
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+Footer{
+    height: 123px;
+    
+    background-color:black;
+    color:white;
+}
