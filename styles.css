@@ -12,6 +12,11 @@ header{
     margin:20px;
     background-color : grey;
 }
+img {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
 
 header h1{
     color:lightseagreen;
@@ -75,10 +80,7 @@ h1{
 }
 Footer{
     height: 123px;
-    
+    padding: 20px;
     background-color:black;
     color:white;
 }
-
-
-
