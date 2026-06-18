@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title >ABOUT MY NEW WEBSITE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+       <h1>THIS IS MY PORTFOLIO</h1>
+        <nav>
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Skills">Skills</a>
+          <a href="#projects">projects</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </header>
+      <main>
+         <section>
+       <h2>About my intrduction</h2>
+       
+          <img src="myphoto.JPEG" alt="profile photo" width="150" height="150">
+          
+       <p>Hi, I am Archana from penukonda.<br>I am pursuing B.Tech at sanskrithi school of engineering.<br> I am passionate about web development and enjoy creating websites.<br>Initially, I was not interested in coding,<br> but after learning it, I developed a strong interest in programming. 
+        My strength is adaptability. 
+       
+         </section>
+
+        <section>
+        <h1>My skills</h1>
+        <ol>
+            <li>Basics of python</li>
+            <li>Basics of c</li>
+            <li>Basics of html and css</li>
+            <li>Basics of java</li>
+        </ol>
+        </section>
+        <section>
+          <h1>Projects</h1>
+          <ol>
+            <li>Personal portfolio website</li>
+            <li>calculator using HTMl/CSS</li>
+            <li>Landing page</li>
+          </ol>
+          
+          <h3 class="connect">connect with me</h3>
+          <a href="#">https://www.linkedin.com/in/archana-nagappa-gari-7400623a8?utm_source=share_via&utm_content=profile&utm_medium=member_android</a><br>
+          <a href="#">https://archanaarchana02884-cell.github.io/my-portfolio/</a>
+          <a href="resume.pdf" download><br>
+            <button class="resume">Download resume</button>
+          
+          </a>
+        </section>
+    <section>
+    <h1>contact me</h1>
+    <p >fill this form for login the webpage</p>
+
+    <form>
+      
+        <label for="username">username: </label>
+        <input type="password"><br>
+        
+        <label for="password">password: </label>
+        <input type="password"><br>
+        
+        
+        
+        <label>choose your gender: </label>
+        
+        <input type="radio" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" value="female">
+        <label for="female">female</label>
+        
+        <br>
+       
+        <label>select your intrested one:</label>
+        
+        <input type="checkbox" id="reading" value="reading">
+        <label for="reading">reading</label>
+        <input type="checkbox" id="writing" value="writing">
+        <label for="writing">writing</label>
+        
+        <br>
+
+        
+        <label for="domain">Type your domain:</label>
+        <input type="text" id="domain"placeholder="e.g. web Development">
+        
+        <br>
+
+        <button class="submit">submit</button>
+    </form>
+    </section>
+</main>
+<button class="fixedbutton">Top</button>
+<footer>
+    <p>&copy; 2026 Archana. All Rights Reserved. | Designed with ❤️</p>
+</footer>
+
+<script>
+  const topButton = document.querySelector(".fixedbutton");
+
+  topButton.addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+</body>
+</html>
